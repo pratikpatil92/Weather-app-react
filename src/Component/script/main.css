@@ -1,0 +1,42 @@
+.center{
+    position: center;
+    transform: translate(0%,100%);
+    }
+
+.city_name_card{
+    background-color: rgba(245, 245, 245, 1);
+    opacity: .4;
+    height:190%;
+}
+
+.sunrise{
+    padding-top: 5px;
+}
+
+.info{
+    position: center;
+}
+
+.forecast{
+    background-color: rgba(245, 245, 245, 1);
+    opacity: .4;
+
+}
+.display-1{
+    font-size:xx-large;
+}
+
+/* .scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+} */
+.scrolling-wrapper .row{
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+
+}
+.scrolling-wrapper .row .col-md-2{
+        display: inline-block;
+
+}
